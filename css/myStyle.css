@@ -1,0 +1,136 @@
+.cell {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  /* Image/Container width */
+  width: 30%;
+  border: 5px inset #696969;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: 3px inset Black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+h1{
+  padding-top: 0.8em;
+  /* padding-bottom: 0.3em; */
+  padding-left: 0em;
+  /* -webkit-text-stroke: 1px grey; */
+  /* font-family: 'Press Start 2P'; /* Pixelated */ */
+  font-size: 40px;
+
+  text-align: center;
+}
+
+.pagemid{
+  /* background: url( "./images/goldGildedRedBackground.jpg" ); */
+  background: #F5F5F5;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  /* padding-top: 1px; */
+
+  margin-right: 9em;
+  margin-left: 7em;
+
+  outline-style: inset;
+  outline-color: black;
+  /*outline-color: gold;*/
+
+  min-width: 1000px;
+  max-width: 1000px;
+
+  min-height: 600px;
+}
+
+body {
+ background-color: #D3D3D3;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  color: black
+  background-color: red;
+}
+
+
+div.gallery {
+  margin: 10px;
+  border: 2px inset #696969;
+  float: left;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 2px outset #696969;
+}
+
+div.gallery img {
+  width: 100%;
+  margin-bottom: 0em;
+  border-bottom: 2px solid black;
+  padding-bottom: 0em;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: left;
+  font-family: '';
+}
+
+/* Style the button and place it in the middle of the container/image */
+div.gallery .btn {
+  position: absolute;
+  transform: translate(25%, 250%);
+  background-color: #555;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: 3px inset Black;
+  cursor: pointer;
+  border-radius: 5px;
+
+  min-width:203px;
+}
+div.gallery .btn:hover {
+  background-color: black;
+}

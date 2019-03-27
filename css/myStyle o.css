@@ -1,0 +1,159 @@
+/* NAVIGATION BAR */
+#nav {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* padding-left: 11em; */
+    /* padding-right: 20em; */
+    font-family: 'Cinzel', serif;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+    padding-left: 5em;
+    /* padding-right: 15em; */
+    /* display: inline-block; CUTS IT OFF */
+    min-width: 1100px;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#nav li b {  /* governs the ADN part */
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 90px;
+    padding-right: 90px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-text-stroke: 1px gold;
+
+    font-family: 'Press Start 2P'; /* Pixelated */
+}
+
+#nav li a:hover:not(.active) {
+    /* background-color: #222; */
+    color: #BA55D3;
+}
+
+#nav .active {
+    background-color: black;
+    color: gold;
+
+    outline-style: double;
+    outline-color: gold;
+}
+/* NAVIGATION BAR */
+
+/* LINKS */
+/* unvisited link */
+a:link {
+    color: gold;
+}
+/* visited link */
+a:visited {
+    color: silver;
+}
+/* mouse over link */
+a:hover {
+    color: red;
+}
+/* selected link */
+a:active {
+    color: gold;
+}
+/* LINKS */
+
+
+
+body {
+ background: url("../images/marbledGold1.jpg") repeat;
+
+ /* padding-left: 11em; */
+ /* padding-right: 20em; */
+ /* font-family: */
+ /* Georgia, "Times New Roman", */
+ /* Times, serif; */
+ /* color: red; */
+ color: white;
+}
+
+.pagemid{
+  /* background: url( "./images/goldGildedRedBackground.jpg" ); */
+  background: black;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  /* padding-top: 1px; */
+
+  margin-right: 9em;
+  margin-left: 7em;
+
+  outline-style: inset;
+  outline-color: gold;
+
+  min-width: 1000px;
+  max-width: 1000px;
+}
+
+h2{
+  padding-top: 1em;
+  -webkit-text-stroke: 1px grey;
+  font-family: 'Press Start 2P'; /* Pixelated */
+}
+
+p{
+  font-family: 'Kanit', sans-serif; /* Looks like code */
+  font-family: 'Cinzel', serif; /* Fantasy like */
+  font-family: 'Hind Vadodara', sans-serif; /* Most Normal */
+
+}
+
+/* BUTTON STUFF */
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  color: black;
+  background-color: #4CAF50;
+  background-color: #e6b800;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #666;
+}
+
+.button:hover {
+  /* background-color: #3e8e41 */
+  background-color: #e6b800;
+}
+
+.button:active {
+  background-color: #b38f00;
+  box-shadow: 0 5px #444;
+  transform: translateY(4px);
+}
+/* BUTTON STUFF */
