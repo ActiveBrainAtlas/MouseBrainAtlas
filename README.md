@@ -7,10 +7,6 @@ This toolkit is written in Python 2.7.2 and has been tested on a machine with In
 
 A complete run-through of the following demo takes roughly 2 hours. In order to allow an user to walk through the pipeline in as little time as possible, this demo only used 3 sections. Such small number of sections is not adequate to obtain an accurate registration. To get reasonable results, at least 10 sections are recommended for each landmark.
 
-## Viewer
-
-This project has an associated viewer located [here](https://activebrainatlas.github.io/MouseBrainAtlas/) to view three examples of structure registration in the brainstem region.
-
 ## Installation
 
 #### Install CUDA (refer to [this page](https://mxnet.apache.org/versions/master/install/ubuntu_setup.html#cuda-dependencies))
