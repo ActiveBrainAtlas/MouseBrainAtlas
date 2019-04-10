@@ -72,7 +72,8 @@ h1{
   min-width: 1000px;
   max-width: 1000px;
 
-  min-height: 650px;
+  min-height: 700px;
+  height: 85%;
 }
 
 body {
