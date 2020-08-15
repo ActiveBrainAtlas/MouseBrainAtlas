@@ -27,7 +27,4 @@ Data are stored long-term in two places:
 
 Refer to [this page](TransferFiles.md) on how to transfer data between lab server or S3 and the local workstation.
 
-(## Reconstructed volumes or virtual sections
-Collection of images representing virtual sections in all three directions (sagittal, coronal and horizontal).)
-
-[List of brain stack directories](../Brain_stack_directories.md)
+[List of brains](../Brain_stack_directories.md)
